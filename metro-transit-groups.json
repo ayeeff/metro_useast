@@ -1,0 +1,197 @@
+{
+  "_comment": "Precomputed job matrix for metro-transit.yml, metro_useast. One job per (extract, cluster), capped at 10 cities so a single failing city cannot fail its whole group. Clustering bounds the coarse cut; the cap bounds the blast radius. Generated rather than computed in jq, which failed in CI under set -euo pipefail with no message.",
+  "perJob": 10,
+  "cityCount": 45,
+  "groupCount": 24,
+  "groups": [
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-102",
+      "cities": [
+        "miami:-80.52411,25.48761,-79.92411,26.08761"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-104",
+      "cities": [
+        "naples:-81.83792,26.02098,-81.53748,26.33369"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-106",
+      "cities": [
+        "orlando:-81.55993,28.3172,-81.09662,28.65025",
+        "tampa:-82.6771,27.85075,-82.29217,28.1855"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-109",
+      "cities": [
+        "jacksonville:-81.9969,30.08266,-81.3969,30.57497"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-113",
+      "cities": [
+        "atlanta:-84.69995,33.53001,-84.09995,34.13001"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-116",
+      "cities": [
+        "charlotte:-81.04445,34.94872,-80.61176,35.42933"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-117",
+      "cities": [
+        "memphis:-90.11858,34.98652,-89.69344,35.26926"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-119",
+      "cities": [
+        "nashville:-87.01529,35.94169,-86.53073,36.36791"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-121",
+      "cities": [
+        "cincinnati:-84.77328,39.02911,-84.19724,39.33882",
+        "indianapolis:-86.37702,39.59357,-85.92191,39.96998"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-123",
+      "cities": [
+        "cleveland:-81.91352,41.34437,-81.47483,41.57991",
+        "fortwayne:-85.31647,40.98946,-84.96995,41.20475",
+        "toledo:-83.75838,41.57755,-83.44204,41.74344"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-124",
+      "cities": [
+        "chicago:-88.05006,41.52999,-87.45006,42.12999",
+        "desmoines:-93.87,41.41,-93.37,41.77"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-126",
+      "cities": [
+        "dearborn:-83.43,42.14,-82.93,42.5",
+        "detroit:-83.3458,42.0314,-82.7458,42.6314",
+        "grandrapids:-85.76781,42.8083,-85.49161,43.09387",
+        "milwaukee:-88.08231,42.89405,-87.85527,43.21433",
+        "mountpleasant:-88.16,42.55,-87.66,42.91"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-127",
+      "cities": [
+        "madison:-89.56234,42.9947,-89.23848,43.15798"
+      ]
+    },
+    {
+      "extract": "us-midwest",
+      "cluster": "us-midwest-129",
+      "cities": [
+        "minneapolis:-93.38204,44.77485,-93.18909,45.17596"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-1",
+      "cities": [
+        "syracuse:-76.2574,42.9381,-76.0374,43.1581"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-61",
+      "cities": [
+        "roseau:-61.68701,15.00102,-61.08702,15.60102"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-62",
+      "cities": [
+        "kingston:-77.06743,17.67708,-76.46743,18.27708"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-64",
+      "cities": [
+        "fortlauderdale:-80.36539,26.02896,-80.06406,26.2318"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-67",
+      "cities": [
+        "cary:-79.03,35.61,-78.53,35.97",
+        "durham:-79.02423,35.84544,-78.76193,36.10832",
+        "greensboro:-80.02962,35.8985,-79.65832,36.18496",
+        "norfolk:-76.34875,36.81631,-76.1572,36.97574",
+        "raleigh:-78.83493,35.53975,-78.47268,35.9954",
+        "virginiabeach:-76.25342,36.73154,-75.93721,36.93327"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-69",
+      "cities": [
+        "ashburn:-77.74,38.86,-77.24,39.22",
+        "baltimore:-76.79369,39.14642,-76.465,39.43063",
+        "philadelphia:-75.4652,39.6526,-74.8652,40.2526",
+        "rockville:-77.4,38.9,-76.9,39.26",
+        "washington:-77.30942,38.59955,-76.70942,39.19955"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-70",
+      "cities": [
+        "newark:-74.27043,40.664,-74.13101,40.80341",
+        "newyork:-74.28001,40.44998,-73.68001,41.04998",
+        "plymouth:-70.76311,41.79433,-70.52418,42.00142"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-71",
+      "cities": [
+        "pittsburgh:-80.32128,40.29778,-79.74668,40.58575"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-72",
+      "cities": [
+        "boston:-71.3589,42.0601,-70.7589,42.6601"
+      ]
+    },
+    {
+      "extract": "us-northeast",
+      "cluster": "us-northeast-73",
+      "cities": [
+        "buffalo:-78.93875,42.64096,-78.66461,43.08856",
+        "rochester:-77.7944,43.03026,-77.45373,43.28229"
+      ]
+    }
+  ]
+}
